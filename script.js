@@ -49,3 +49,4 @@ let perguntaAtual;
         perguntaAtual = pergunta [atual];
         caixaPerguntas.textContent = perguntaAtual.enunciado;
     }
+    mostraPerguta9();
