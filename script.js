@@ -12,11 +12,40 @@ const perguntas = [
             "Alterntiva 2"
          ]
     },
-{
-    anunciado: "Pergunta 2"
-    altenativa:[
-        "Alternstiva 1"
-        "Alternativa 2"
-    ]
-}
-]
+    {
+        anunciado: "Pergunta 2",
+        altenativa:[
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+    {
+        anunciado: "Pergunta 3",
+        altenativa:[
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+    {
+        anunciado: "Pergunta 4",
+        altenativa:[
+            "Alternativa 1",
+            "Alternativa 2"
+        ]
+    },
+    {
+        anunciado: "Pergunta 5",
+        altenativa:[
+            "Alternstiva 1",
+            "Alternativa 2"
+        ]
+    },
+];
+
+let atual = 0;
+let perguntaAtual;
+
+    function mostraPerguta9(){
+        perguntaAtual = pergunta [atual];
+        caixaPerguntas.textContent = perguntaAtual.enunciado;
+    }
